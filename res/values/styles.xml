@@ -17,4 +17,12 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
+
+	<style name="buttonStyle" parent="android:Widget.Button">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginBottom">@dimen/button_bottom_margin</item>
+		<item name="android:textSize">@dimen/button_text_size</item>
+	</style>
+
 </resources>
