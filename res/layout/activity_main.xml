@@ -10,31 +10,37 @@
     tools:context=".MainActivity" >
 
 	<Button
+		android:id="@+id/simple_notification"
 	    android:text="Simple notification"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
 		style="@style/buttonStyle">
 	</Button>
 
 	<Button
-			android:text="Simple notification"
+			android:id="@+id/big_notification"
+			android:text="Expandable with buttons"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
 			style="@style/buttonStyle">
 	</Button>
 
 	<Button
-			android:text="Simple notification"
+			android:id="@+id/progress_notification"
+			android:text="Progress notification"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
 			style="@style/buttonStyle">
 	</Button>
+
 	<Button
-			android:text="Simple notification"
+			android:id="@+id/button_notifcation"
+			android:text="Button notification"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
 			style="@style/buttonStyle">
 	</Button>
-	<Button
-			android:text="Simple notification"
-			style="@style/buttonStyle">
-	</Button>
-	<Button
-			android:text="Simple notification"
-			style="@style/buttonStyle">
-	</Button>
+
 
 
 

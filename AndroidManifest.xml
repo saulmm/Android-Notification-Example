@@ -21,6 +21,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+	    <activity
+		    android:name="doc.saulmm.notification.TestActivity">
+
+		    <!-- Necessary to the task manager to know who is the parent activity, if you are developing API 16 or higher, you can use:
+		         android:parentActivityName="doc.saulmm.notification.MainActivity"  -->
+	        <meta-data
+				    android:name="android.support.PARENT_ACTIVITY"
+			         android:value="doc.saulmm.notification.MainActivity" />
+	    </activity>
+
+
+
     </application>
 
 </manifest>
